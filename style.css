@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main-container {
+    background: hsl(233, 47%, 7%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrapper {
+    width: 70%;
+    background-color: hsl(244, 38%, 16%);
+    height: 380px;
+}
+
+.card-wrapper .text-box {
+    width: 50% ;
+    float: left;
+    padding: 45px;
+}
+
+.card-wrapper .text-box h2 {
+    color: #fff;
+}
+
+.card-wrapper .text-box h2 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.card-wrapper .text-box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.card-wrapper .text-box .card {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 20px 5px;
+    margin-top: 20px;
+}
+
+.card-wrapper .text-box .card h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.card-wrapper .text-box .card p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.card-wrapper .img-box {
+    width: 50% ;
+    height: 380px;
+    float: left;
+    position: relative;
+}
+
+.card-wrapper .img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% ;
+    height: 380px;
+    background-color: hsl(277, 64%, 61%, .6);
+}
